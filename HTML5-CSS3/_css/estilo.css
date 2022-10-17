@@ -10,7 +10,7 @@ body {
     color: rgba(0,0,0,1);
 }
 div#interface {
-    width: 800px;
+    width: 900px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -36,7 +36,7 @@ header#cabecalho {
 }
 header#cabecalho img#icone {
     position: absolute;
-    left: 1000px;
+    left: 1050px;
     top: 70px;
 }
 header#cabecalho h1 {
@@ -118,7 +118,7 @@ nav#menu a:hover {
 /* Formatação das divisões do site */
 section#corpo {
     display: block;
-    width: 500px;
+    width: 550px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
@@ -184,7 +184,7 @@ table#tabela-spec caption span {
 }
 aside#lateral {
     display: block;
-    width: 250px;
+    width: 300px;
     float: right;
     background-color: #dddddd;
     padding: 10px;
