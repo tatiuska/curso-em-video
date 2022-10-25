@@ -10,7 +10,7 @@ body {
     color: rgba(0,0,0,1);
 }
 div#interface {
-    width: 900px;
+    width: 930px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -138,13 +138,13 @@ header#cabecalho-artigo h1 {
     margin-top: 0px;
 }
 header#cabecalho-artigo h2 {
-    font-size: 13pt;
+    font-size: 13px;
     color: #cecece;
     background: none;
     margin: 0px;
 }
 header#cabecalho-artigo h3 {
-    font-size: 12pt;
+    font-size: 12px;
 }
 .dir {
     text-align: right;
