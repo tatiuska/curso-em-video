@@ -184,7 +184,8 @@ table#tabela-spec caption span {
 }
 aside#lateral {
     display: block;
-    width: 300px;
+    width: 330px;
+    height: auto;
     float: right;
     background-color: #dddddd;
     padding: 10px;
@@ -209,4 +210,30 @@ footer#rodape {
 }
 footer#rodape p {
     text-align: center;
+}
+
+/* Formatação dos vídeos da página principal */
+div#tv-radio-np {
+    width: 500px;
+    height: 350px;
+    margin: auto;
+}
+div#tv-radio-lat {
+    width: 280px;
+    height: 100px;
+    margin: auto;
+}
+video#filme-np {
+    display: block;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 440px;
+}
+video#filme-lat {
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 280px;
 }
