@@ -48,5 +48,23 @@
         $num8 = (int) "950"; // aplicando a coerção no caso string-int
         var_dump($num8);
     ?>
+        <?php 
+        $casado = true; // se chamar essa variável num print ou echo, vai imprimir 1 se for true e nada se for false
+        var_dump($casado);
+    ?>
+    <?php 
+        // Tipo Primitivo Composto: Array
+        $vet = [6, 2.5, "Maria", 3, false];
+        var_dump($vet);
+    ?>
+    <?php 
+        // Tipo Primitivo Composto: Object
+        class Pessoa {
+            private string $nome;
+        }
+
+        $p = new Pessoa;
+        var_dump($p);
+    ?>
 </body>
 </html>
