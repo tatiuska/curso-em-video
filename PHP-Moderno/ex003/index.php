@@ -10,26 +10,26 @@
     <h1>Teste de Tipos Primitivos</h1>
     <?php 
         $num = 300;
-        echo "O valor da variável é $num";
+        echo "O valor da variável é $num" . "<br>"; //aplicando a concatenação do ex 004 para fazer a quebra de linhas entre os exemplos
 
         // 0x = Hexadecimal, 0b = Binário, 0 = Octal
         // número Hexadecimal
         $num2 = 0x1A;
-        echo "O valor da variável é $num2";
+        echo "O valor da variável é $num2" . "<br>";
 
         // número Binário
         $num3 = 0b1011;
-        echo "O valor da variável é $num3";
+        echo "O valor da variável é $num3" . "<br>";
 
         // número Octal
         $num4 = 010;
-        echo "O valor da variável é $num4";
+        echo "O valor da variável é $num4" . "<br>";
 
         $v = 300;
         var_dump($v); // mostra não apenas o valor da variável, mas seu tipo primitivo.
 
         $num5 = 3e2; // 3 x 10(2)
-        echo "O valor da variável é $num5";
+        echo "O valor da variável é $num5" . "<br>";
 
         $num6 = 3e2;
         var_dump($num6);

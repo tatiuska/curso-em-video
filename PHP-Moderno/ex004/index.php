@@ -12,10 +12,23 @@
         $nome = "Ana";
         $sobrenome = "Vieira";
         //double quoted
-        echo "$nome $sobrenome \u{1F596}";
+        echo "$nome $sobrenome \u{1F596}" . "<br />"; //tem que deixar espaço entre uma string, a outra e o ponto para funcionar!!!
 
         //single quoted
-        echo '$nome $sobrenome \u{1F596}';
+        echo '$nome $sobrenome \u{1F596}' . "<br />";
+
+        //concatenação de constantes
+        const CANAL = "Curso em Vídeo \u{1F499}";
+        echo "Eu adoro o " . CANAL . "<br />";
+
+        //concatenação de funções
+        echo "Estamos no ano " . date('Y');
+
+        //utilizando sequências de escape
+        $nom = "Joãozinho";
+        $apelido = "Gafanhoto";
+        $snom = "da Silva";
+        echo "$nom \"$apelido\" $snom" . "<br>";
     ?>
 </body>
 </html>
