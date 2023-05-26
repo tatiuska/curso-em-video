@@ -21,6 +21,7 @@
 
             echo "<p>O número gerado foi $num.</p>";
         ?>
+        <!-- botão para recarregar a página -->
         <button onclick="javascript:document.location.reload()">Gerar outro número</button>
     </main>
 </body>
