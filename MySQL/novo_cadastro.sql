@@ -11,4 +11,4 @@ CREATE TABLE `pessoas` (
   `altura` decimal(3,2) DEFAULT NULL,
   `nacionalidade` varchar(20) DEFAULT 'Brasil',
   PRIMARY KEY (`id`)
-) DEFAULT CHARSET = utf8mb4;
+) DEFAULT CHARSET =utf8mb4;
