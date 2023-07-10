@@ -46,4 +46,5 @@ INSERT INTO `teste` VALUES
 ('2', 'Maria', '12'),
 ('3', 'Maricota', '77');
 
-DROP TABLE IF EXISTS `teste`; 
+-- Deletando a tabela teste
+DROP TABLE IF EXISTS `teste`;
